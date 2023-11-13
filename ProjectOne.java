@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class ProjectOne {
     public static void main(String[] args) {
-        createTable();
-        int count = populateTable();
+        ProjectOne.createTable();
+        int count = ProjectOne.populateTable();
         System.out.println("You have entered " + count + " details. Thank you");
 
     }
